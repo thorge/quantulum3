@@ -808,5 +808,35 @@
       }
     ],
     "URI": "Data_transmission"
+  },
+  "sedimentation rate": {
+    "dimensions": [
+      {
+        "base": "length",
+        "power": 1
+      },
+      {
+        "base": "time",
+        "power": -1
+      }
+    ],
+    "URI": "Sedimentation_rate"
+  },
+  "mass accumulation rate": {
+    "dimensions": [
+      {
+        "base": "mass",
+        "power": 1
+      },
+      {
+        "base": "length",
+        "power": -2
+      },
+      {
+        "base": "time",
+        "power": -1
+      }
+    ],
+    "URI": "Mass_accumulation_rate"
   }
 }
